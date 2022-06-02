@@ -1,0 +1,13 @@
+.buttons-container{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.previousBtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
