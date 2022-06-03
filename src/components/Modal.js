@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import data from '../data'
 import './Modal.css'
 
-const Modal = ({ open, closeModal, setNewUser }) => {
+const Modal = ({ open, closeModal }) => {
   const [first, setFirst] = useState('')
   const [last, setLast] = useState('')
   const [city, setCity] = useState('')
